@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #e2dfdf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 54px;
+  color: black;
+  background-color: rgb(24, 166, 166);
+  padding-left: 60px;
+  padding-right: 10px;
+}
+
+header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2f2f32;
+  color: #ffffff;
+}
+
+footer {
+  padding: 20px;
+  color: #999;
+}
+
+header nav {
+  float: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+}
+
+footer nav {
+  float: left;
+  font-size: 35px;
+}
+
+header nav ul,
+footer nav ul {
+  margin: 190px;
+  padding: 0px;
+  margin-block: 0px;
+  list-style-type: auto;
+}
+
+header nav ul li,
+footer nav ul li {
+  display: inline-flex;
+  margin-left: 25px;
+  border-bottom: 5px solid rgb(31, 184, 184);
+}
+
+a {
+  color: rgb(31, 184, 184);
+  padding: 5px;
+  text-decoration: none;
+}
+
+.hero-banner {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-banner div,
+.banner {
+  display: flex;
+  height: 800px;
+  justify-content: right;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+
+.hero-banner div h2,
+.banner h3 {
+  font-size: 48px;
+  color: black;
+  background-color: rgb(24, 166, 166);
+  bottom: 0;
+  right: 0;
+  padding: 0 10px;
+}
+
+
+main {
+  width: 75%;
+  margin-left: 20px;
+  margin: 0 auto;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.section-content {
+  padding-left: 15px;
+  width: 100%;
+}
+
+.section-content .banner {
+  border: 9px solid rgb(24, 166, 166);
+}
+
+.portfolio1 {
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+.portfolio2 {
+  height: 400px;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.portfolio3 {
+  height: 400px;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+.portfolio4 {
+  height: 400px;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+.portfolio5 {
+  height: 400px;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+
+.section-content::before {
+  content: '';
+  position: absolute;
+  left: 200px;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: #333;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  padding: 0 20px 0 10px;
+  text-align: left;
+  width: 180px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.content-sectione p {
+  flex: 1;
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.col-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
